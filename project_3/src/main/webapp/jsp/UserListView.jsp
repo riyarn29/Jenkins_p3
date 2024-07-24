@@ -62,8 +62,7 @@
 				int pageSize = ServletUtility.getPageSize(request);
 				int index = ((pageNo - 1) * pageSize) + 1;
 				int nextPageSize = DataUtility.getInt(request.getAttribute("nextListSize").toString());
-				RoleDTO rbean1 = new RoleDTO();
-				RoleModelInt rmodel = ModelFactory.getInstance().getRoleModel();
+								RoleModelInt rmodel = ModelFactory.getInstance().getRoleModel();
 
 				List list = ServletUtility.getList(request);
 

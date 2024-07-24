@@ -22,7 +22,7 @@
 	
 }
 .grad{
-background-image: linear-gradient(to bottom right, orange, black);
+background-image: linear-gradient(to bottom right, lavender, white);
 background-repeat: no repeat;
 background-size: 100%;
 padding-bottom: 11px;
